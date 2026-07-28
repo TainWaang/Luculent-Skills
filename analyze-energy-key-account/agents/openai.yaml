@@ -1,0 +1,13 @@
+interface:
+  display_name: 能源大客户分析
+  short_description: 能源大客户深研，支持精美PDF与可编辑Word
+  default_prompt: 使用 $analyze-energy-key-account 为朗坤智慧营销团队深度分析目标能源客户，根据研究目的和客户特点设计清楚的一级、二级标题，重点研究上级集团要求、内部数科公司、现有供应商、竞争厂商和项目线索，形成正文1万—3万字、带来源依据和朗坤智慧高/中/低匹配建议的专业报告。封面之后只保留目录，再进入核心结论和详细正文；不使用内部研究方法词作为成品标题。输出格式可选PDF、可编辑Word或PDF+Word，未指定时默认PDF。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
